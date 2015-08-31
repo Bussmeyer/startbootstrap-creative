@@ -41,6 +41,7 @@ p {
 .bg-primary {
   background-color: #f37224;
 }
+.bg-primary a,
 .bg-primary a[href^=tel] {
   color: white;
 }
