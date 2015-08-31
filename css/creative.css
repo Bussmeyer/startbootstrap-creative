@@ -25,10 +25,6 @@ a:hover,
 a:focus {
   color: #d8590c;
 }
-a[href^=tel] {
-  color: #fff;
-  text-decoration: none;
-}
 h1,
 h2,
 h3,
@@ -44,6 +40,9 @@ p {
 }
 .bg-primary {
   background-color: #f37224;
+}
+.bg-primary a[href^=tel] {
+  color: white;
 }
 .bg-dark {
   background-color: #222222;

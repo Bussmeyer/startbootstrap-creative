@@ -30,10 +30,6 @@ a {
     &:focus {
         color: darken(@theme-primary, 10%);
     }
-    &[href^=tel]{
-        color: #fff;
-        text-decoration:none;
-    }
 }
 
 h1,
@@ -53,6 +49,9 @@ p {
 
 .bg-primary {
     background-color: @theme-primary;
+    a[href^=tel]{
+        color: white;
+    }
 }
 
 .bg-dark {
