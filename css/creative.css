@@ -25,6 +25,10 @@ a:hover,
 a:focus {
   color: #d8590c;
 }
+a[href^=tel] {
+  color: #fff;
+  text-decoration: none;
+}
 h1,
 h2,
 h3,
